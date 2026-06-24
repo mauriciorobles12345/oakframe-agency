@@ -51,7 +51,7 @@ export function Navbar() {
     <>
       <header
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+          'fixed top-0 left-0 right-0 z-[70] transition-all duration-300',
           scrolled || open ? 'bg-black/90 backdrop-blur border-b border-white/10' : 'bg-transparent'
         )}
       >
@@ -140,7 +140,7 @@ export function Navbar() {
 
       {/* Mobile menu overlay */}
       <div
-        className="fixed inset-0 z-40 md:hidden flex flex-col transition-all duration-300"
+        className="fixed inset-0 z-[60] md:hidden flex flex-col transition-all duration-300"
         style={{
           background: '#070707',
           opacity: open ? 1 : 0,
