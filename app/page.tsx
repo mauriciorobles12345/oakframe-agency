@@ -122,12 +122,12 @@ export default function Home() {
 
         {/* ── 3D Showcase ── */}
         <section className="flex w-full items-center justify-center px-6 pb-24 pt-0" style={{ background: "#0a0a0a" }}>
-          <Card className="w-full max-w-5xl h-[500px] relative overflow-hidden" style={{ background: "linear-gradient(135deg, #111 0%, #0d0d0d 100%)", border: `1px solid rgba(125,223,255,0.12)`, boxShadow: `0 0 40px rgba(125,223,255,0.04)` }}>
+          <Card className="w-full max-w-5xl relative overflow-hidden" style={{ background: "linear-gradient(135deg, #111 0%, #0d0d0d 100%)", border: `1px solid rgba(125,223,255,0.12)`, boxShadow: `0 0 40px rgba(125,223,255,0.04)`, minHeight: 320 }}>
             <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill={STAR} />
-            <div className="flex h-full">
-              <div className="flex-1 p-10 relative z-10 flex flex-col justify-center">
+            <div className="flex flex-col md:flex-row" style={{ minHeight: 320 }}>
+              <div className="flex-1 p-8 md:p-10 relative z-10 flex flex-col justify-center">
                 <SectionLabel>Lo que creamos</SectionLabel>
-                <h2 className="text-4xl md:text-5xl font-bold leading-tight" style={{ background: "linear-gradient(160deg, #ffffff 0%, #888 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+                <h2 className="text-3xl md:text-5xl font-bold leading-tight" style={{ background: "linear-gradient(160deg, #ffffff 0%, #888 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Experiencias<br />Interactivas
                 </h2>
                 <p className="mt-4 text-sm leading-relaxed max-w-sm" style={{ color: "#555" }}>
@@ -138,8 +138,8 @@ export default function Home() {
                   <span className="text-xs tracking-widest uppercase font-mono" style={{ color: STAR, textShadow: STAR_GLOW }}>Oakframe</span>
                 </div>
               </div>
-              <div className="flex-1 relative">
-                <SplineScene scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" className="w-full h-full" />
+              <div className="flex-1 relative" style={{ minHeight: 280 }}>
+                <SplineScene scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" className="w-full h-full absolute inset-0" />
               </div>
             </div>
           </Card>
