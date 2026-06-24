@@ -469,8 +469,8 @@ export default function Home() {
                 Cuéntanos sobre tu proyecto y te respondemos en menos de 24 horas.
               </p>
               <div className="mt-10 space-y-3">
-                <a href="mailto:hola@oakframe.mx" className="text-sm transition-colors duration-200 hover:text-[#7DDFFF] block" style={{ color: "#3a3a3a" }}>
-                  hola@oakframe.mx
+                <a href="mailto:mrobles12642@icloud.com" className="text-sm transition-colors duration-200 hover:text-[#7DDFFF] block" style={{ color: "#3a3a3a" }}>
+                  mrobles12642@icloud.com
                 </a>
                 <a href="https://www.instagram.com/oakframeagency/" target="_blank" rel="noopener noreferrer" className="text-sm transition-colors duration-200 hover:text-[#7DDFFF] flex items-center gap-2" style={{ color: "#3a3a3a" }}>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
