@@ -1,12 +1,9 @@
+'use client'
+
 import { Navbar } from '@/components/ui/navbar'
 
 const STAR = '#7DDFFF'
 const STAR_GLOW = '0 0 12px rgba(125,223,255,0.9), 0 0 30px rgba(125,223,255,0.5)'
-
-export const metadata = {
-  title: 'Aviso de Privacidad — Oakframe Agency',
-  description: 'Aviso de privacidad de Oakframe Agency conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.',
-}
 
 export default function AvisoPrivacidad() {
   return (
