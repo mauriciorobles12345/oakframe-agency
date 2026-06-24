@@ -138,8 +138,8 @@ export default function Home() {
                   <span className="text-xs tracking-widest uppercase font-mono" style={{ color: STAR, textShadow: STAR_GLOW }}>Oakframe</span>
                 </div>
               </div>
-              <div className="flex-1 relative" style={{ minHeight: 280 }}>
-                <SplineScene scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" className="w-full h-full absolute inset-0" />
+              <div className="flex-1 relative" style={{ minHeight: 300, height: 300 }}>
+                <SplineScene scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" className="w-full h-full" />
               </div>
             </div>
           </Card>
