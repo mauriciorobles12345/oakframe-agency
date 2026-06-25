@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   title: 'Oakframe Agency — Diseño y Desarrollo Web en Puebla',
   description: 'Agencia de diseño y desarrollo web en Puebla, México. Creamos sitios web que elevan tu marca y convierten visitantes en clientes.',
   icons: { icon: '/logo.png' },
-  metadataBase: new URL('https://oakframe.mx'),
+  metadataBase: new URL('https://www.oakframe.online'),
+  verification: { google: 'LWHI-O9TYm8FPhP-Hx4XkUpO5EGhbLl_6Fzh2r74dcA' },
   openGraph: {
     type: 'website',
     locale: 'es_MX',
